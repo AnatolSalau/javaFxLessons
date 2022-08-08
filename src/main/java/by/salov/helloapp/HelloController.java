@@ -1,4 +1,4 @@
-package by.salov.javafxlessons;
+package by.salov.helloapp;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

@@ -3,6 +3,6 @@ module by.salov.javafxlessons {
     requires javafx.fxml;
 
 
-    opens by.salov.javafxlessons to javafx.fxml;
-    exports by.salov.javafxlessons;
+    opens by.salov.helloapp to javafx.fxml;
+    exports by.salov.helloapp;
 }

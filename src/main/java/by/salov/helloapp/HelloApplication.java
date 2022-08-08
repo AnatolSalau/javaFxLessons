@@ -1,4 +1,4 @@
-package by.salov.javafxlessons;
+package by.salov.helloapp;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
