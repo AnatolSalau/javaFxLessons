@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600" prefWidth="1000" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.salov.jfoenixstart.Controller">
+   <children>
+      <JFXTreeTableView fx:id="tableview" layoutX="231.0" layoutY="182.0" prefHeight="237.0" prefWidth="539.0" />
+      <JFXButton fx:id="buttonOne" buttonType="RAISED" layoutX="501.0" layoutY="85.0" prefHeight="41.0" prefWidth="408.0" ripplerFill="BLACK" style="-fx-background-radius: 10; -fx-background-color: #00A99D;" text="Добавить пациента">
+         <font>
+            <Font size="17.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>
