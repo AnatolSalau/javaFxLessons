@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ca8af3-4410-48f8-9abe-ee435ca15b70" name="Changes" comment="added lesson MaterialApplication">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfoenix_jfoenix_9_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/lesson_27_fxmlcalculator/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/lesson_27_fxmlcalculator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/lesson_27_fxmlcalculator/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/by/salov/calculator.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" afterDir="false" />
+    <list default="true" id="b3ca8af3-4410-48f8-9abe-ee435ca15b70" name="Changes" comment="added lesson jfoenixstart.fxml">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/by/salov/dashboard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaFxLessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaFxLessons.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +54,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/by/salov" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fontawesomefx-glyphsbrowser" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
@@ -175,7 +171,10 @@
       <updated>1659949732221</updated>
       <workItem from="1659949733336" duration="1134000" />
       <workItem from="1659950896099" duration="6599000" />
-      <workItem from="1660029845682" duration="10962000" />
+      <workItem from="1660029845682" duration="11182000" />
+      <workItem from="1660112266530" duration="120000" />
+      <workItem from="1660125210823" duration="5182000" />
+      <workItem from="1660134009565" duration="2998000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1659949779320</created>
@@ -205,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660026678401</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added lesson jfoenixstart.fxml">
+      <created>1660051561713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660051561713</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added lesson jfoenixstart.fxml">
+      <created>1660051579801</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660051579801</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +240,8 @@
     <MESSAGE value="added HelloApplication.java" />
     <MESSAGE value="added lesson 1-4" />
     <MESSAGE value="added lesson MaterialApplication" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lesson MaterialApplication" />
+    <MESSAGE value="added lesson jfoenixstart.fxml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lesson jfoenixstart.fxml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
