@@ -30,10 +30,10 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         TreeTableColumn column1 = new TreeTableColumn<>("Фамилия");
+        //column1.setStyle();
         TreeTableColumn column2 = new TreeTableColumn<>("Имя");
         TreeTableColumn column3 = new TreeTableColumn<>("Отчество");
         tableview.getColumns().addAll(column1,column2,column3);
         buttonOne.setText("Добавить пациента");
-
     }
 }

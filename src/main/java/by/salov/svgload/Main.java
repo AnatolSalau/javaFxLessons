@@ -1,4 +1,4 @@
-package by.salov.jfoenixstart;
+package by.salov.svgload;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -9,14 +9,13 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/by/salov/jfoenixstart.fxml"));
-        primaryStage.setTitle("JFoenix start");
+        Parent root = FXMLLoader.load(getClass().getResource("/by/salov/svgload.fxml"));
+        primaryStage.setTitle("SVG load");
         primaryStage.setScene(new Scene(root,500,300));
         primaryStage.show();
     }
 
     public static void main(String[] args) {
-
         launch(args);
     }
 }

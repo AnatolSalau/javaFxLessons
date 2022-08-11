@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3ca8af3-4410-48f8-9abe-ee435ca15b70" name="Changes" comment="added lesson jfoenixstart.fxml">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/by/salov/dashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/svgload/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/svgload/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaFxLessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaFxLessons.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/dashboard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,13 +25,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,6 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fontawesomefx-glyphsbrowser" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -68,56 +79,29 @@
       <recent name="D:\JAVA\Projects\javaFxLessons\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA\Projects\javaFxLessons\src\main\resources\by\salov" />
       <recent name="D:\JAVA\Projects\javaFxLessons\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="by.salov" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="JAR Application.javaFxLessons.jar">
     <configuration name="CreateJar" type="Application" factoryName="Application" folderName="CreateJAR">
-      <option name="MAIN_CLASS_NAME" value="by.salov.lesson_3_label.Main" />
+      <option name="MAIN_CLASS_NAME" value="by.salov.jfoenixstart.Main" />
       <module name="javaFxLessons" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="assembly:single" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.salov.jfoenixstart.Main" />
-      <module name="javaFxLessons" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.salov.jfoenixstart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.salov.lesson_27_fxmlcalculator.Main" />
+      <option name="MAIN_CLASS_NAME" value="by.salov.svgload.Main" />
       <module name="javaFxLessons" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.salov.lesson_27_fxmlcalculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaterialApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.salov.materialapptest.MaterialApplication" />
-      <module name="javaFxLessons" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.salov.materialapptest.*" />
+          <option name="PATTERN" value="by.salov.svgload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,6 +122,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="javaFxLessons-1.0-SNAPSHOT-shaded.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/javaFxLessons-1.0-SNAPSHOT-shaded.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="javaFxLessons.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/javaFxLessons.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jfxtest.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/jfxtest.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="original-jfxtest.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/original-jfxtest.jar" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -149,15 +149,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.CreateJar" />
-      <item itemvalue="Application.MaterialApplication" />
+      <item itemvalue="JAR Application.jfxtest.jar" />
+      <item itemvalue="JAR Application.original-jfxtest.jar" />
+      <item itemvalue="JAR Application.javaFxLessons-1.0-SNAPSHOT-shaded.jar" />
+      <item itemvalue="JAR Application.javaFxLessons.jar" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JAR Application.javaFxLessons.jar" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MaterialApplication" />
+        <item itemvalue="JAR Application.jfxtest.jar" />
+        <item itemvalue="JAR Application.javaFxLessons-1.0-SNAPSHOT-shaded.jar" />
+        <item itemvalue="JAR Application.original-jfxtest.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +178,9 @@
       <workItem from="1660029845682" duration="11182000" />
       <workItem from="1660112266530" duration="120000" />
       <workItem from="1660125210823" duration="5182000" />
-      <workItem from="1660134009565" duration="2998000" />
+      <workItem from="1660134009565" duration="3043000" />
+      <workItem from="1660138201286" duration="59000" />
+      <workItem from="1660203051301" duration="16047000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1659949779320</created>
@@ -218,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660051579801</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added lesson jfoenixstart.fxml">
+      <created>1660138111357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660138111357</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +255,20 @@
     <MESSAGE value="added lesson MaterialApplication" />
     <MESSAGE value="added lesson jfoenixstart.fxml" />
     <option name="LAST_COMMIT_MESSAGE" value="added lesson jfoenixstart.fxml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

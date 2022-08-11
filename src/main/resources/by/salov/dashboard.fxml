@@ -12,7 +12,7 @@
 
     <Button text="Close" AnchorPane.topAnchor="0" AnchorPane.leftAnchor="0">
         <graphic>
-            <FontAwesomeIconView glyphName="CLOSE" glyphSize="24"/>
+            <FontAwesomeIconView glyphName="CLOUD" glyphSize="24"/>
         </graphic>
     </Button>
 

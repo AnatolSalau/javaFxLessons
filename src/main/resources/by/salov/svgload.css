@@ -1,0 +1,27 @@
+* {
+    -fx-base: white;
+}
+.my-button-1 {
+    -fx-min-width: 5;
+    -fx-min-height: 5;
+    -fx-pref-width: 25;
+    -fx-pref-height: 35;
+    -fx-background-color: white;
+    -fx-font-size: 16pt;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, black, 10,0,0,0);
+    -fx-background-insets: 6px 0 6px 0; /* use proper area for shape */
+    -fx-shape: "M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z";
+}
+.my-button-2 {
+    -fx-min-width: 5;
+    -fx-min-height: 5;
+    -fx-pref-width: 20;
+    -fx-pref-height: 30;
+    -fx-background-color: white;
+    -fx-font-size: 16pt;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, black, 10,0,0,0);
+    -fx-background-insets: 6px 0 6px 0; /* use proper area for shape */
+    -fx-shape: "M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z";
+}
