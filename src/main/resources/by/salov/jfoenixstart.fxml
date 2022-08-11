@@ -15,5 +15,6 @@
       </JFXButton>
       <JFXButton layoutX="508.0" layoutY="88.0" prefHeight="20.0" prefWidth="42.0" styleClass="my-button-1" text="Button" />
       <JFXButton layoutX="533.0" layoutY="91.0" styleClass="my-button-2" />
+      <JFXButton layoutX="833.0" layoutY="88.0" prefHeight="20.0" prefWidth="42.0" styleClass="my-button-3" text="Button" />
    </children>
 </AnchorPane>

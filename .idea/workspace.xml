@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ca8af3-4410-48f8-9abe-ee435ca15b70" name="Changes" comment="added lesson jfoenixstart.fxml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/svgload/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/svgload/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.fxml" afterDir="false" />
+    <list default="true" id="b3ca8af3-4410-48f8-9abe-ee435ca15b70" name="Changes" comment="added lesson svgload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaFxLessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaFxLessons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/dashboard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +172,7 @@
       <workItem from="1660125210823" duration="5182000" />
       <workItem from="1660134009565" duration="3043000" />
       <workItem from="1660138201286" duration="59000" />
-      <workItem from="1660203051301" duration="16047000" />
+      <workItem from="1660203051301" duration="17127000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1659949779320</created>
@@ -231,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660138111357</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added lesson svgload">
+      <created>1660223289057</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660223289057</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +253,8 @@
     <MESSAGE value="added lesson 1-4" />
     <MESSAGE value="added lesson MaterialApplication" />
     <MESSAGE value="added lesson jfoenixstart.fxml" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lesson jfoenixstart.fxml" />
+    <MESSAGE value="added lesson svgload" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lesson svgload" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
