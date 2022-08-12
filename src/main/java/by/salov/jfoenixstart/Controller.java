@@ -34,6 +34,7 @@ public class Controller implements Initializable {
         TreeTableColumn column2 = new TreeTableColumn<>("Имя");
         TreeTableColumn column3 = new TreeTableColumn<>("Отчество");
         tableview.getColumns().addAll(column1,column2,column3);
-        buttonOne.setText("Добавить пациента");
+        buttonOne.setText("                  Добавить пациента");
+        label.setText("");
     }
 }

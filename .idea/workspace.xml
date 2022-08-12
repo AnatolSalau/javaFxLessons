@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3ca8af3-4410-48f8-9abe-ee435ca15b70" name="Changes" comment="added lesson svgload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" afterDir="false" />
     </list>
@@ -78,7 +79,7 @@
       <recent name="by.salov" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.javaFxLessons.jar">
+  <component name="RunManager" selected="Application.CreateJar">
     <configuration name="CreateJar" type="Application" factoryName="Application" folderName="CreateJAR">
       <option name="MAIN_CLASS_NAME" value="by.salov.jfoenixstart.Main" />
       <module name="javaFxLessons" />
@@ -141,11 +142,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.CreateJar" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="JAR Application.jfxtest.jar" />
       <item itemvalue="JAR Application.original-jfxtest.jar" />
       <item itemvalue="JAR Application.javaFxLessons-1.0-SNAPSHOT-shaded.jar" />
       <item itemvalue="JAR Application.javaFxLessons.jar" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -172,7 +173,8 @@
       <workItem from="1660125210823" duration="5182000" />
       <workItem from="1660134009565" duration="3043000" />
       <workItem from="1660138201286" duration="59000" />
-      <workItem from="1660203051301" duration="17127000" />
+      <workItem from="1660203051301" duration="17184000" />
+      <workItem from="1660285920085" duration="1370000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1659949779320</created>
@@ -230,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660223289057</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added lesson svgload">
+      <created>1660224221271</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660224221271</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
