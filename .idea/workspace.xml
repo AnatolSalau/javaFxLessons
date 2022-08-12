@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3ca8af3-4410-48f8-9abe-ee435ca15b70" name="Changes" comment="added lesson svgload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" afterDir="false" />
     </list>
@@ -174,7 +173,8 @@
       <workItem from="1660134009565" duration="3043000" />
       <workItem from="1660138201286" duration="59000" />
       <workItem from="1660203051301" duration="17184000" />
-      <workItem from="1660285920085" duration="1370000" />
+      <workItem from="1660285920085" duration="1811000" />
+      <workItem from="1660290183981" duration="394000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1659949779320</created>
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660224221271</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added lesson svgload">
+      <created>1660287738971</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660287738971</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
