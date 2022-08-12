@@ -25,12 +25,27 @@
       <JFXButton layoutX="427.0" layoutY="104.0" prefHeight="20.0" prefWidth="42.0" styleClass="my-button-1" text="Button" />
       <JFXButton layoutX="452.0" layoutY="107.0" styleClass="my-button-2" />
       <JFXButton layoutX="852.0" layoutY="152.0" prefHeight="20.0" prefWidth="42.0" styleClass="my-button-3" text="Button" />
-      <Label fx:id="label2" layoutX="189.0" layoutY="124.0" styleClass="my-button-3" text="Label">
+      <Label fx:id="label2" layoutX="122.0" layoutY="85.0" styleClass="addPersonWhite" text="Label">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
       </Label>
-      <Label fx:id="label3" layoutX="146.0" layoutY="218.0" styleClass="my-button-3" text="Label">
+      <Label fx:id="label3" layoutX="122.0" layoutY="157.0" styleClass="patientFindings" text="Label">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="label31" layoutX="121.0" layoutY="224.0" styleClass="personalData" text="Label">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="label311" layoutX="121.0" layoutY="300.0" styleClass="print" text="Label">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label fx:id="label3111" layoutX="122.0" layoutY="369.0" styleClass="statistics" text="Label">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
