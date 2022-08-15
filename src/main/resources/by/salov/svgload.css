@@ -130,10 +130,10 @@
 }
 /*https://github.com/sshahine/JFoenix/blob/6729cc344533cb51c5acdd2bd87e827cbc2868e9/demo/src/main/resources/css/jfoenix-main-demo.css*/
 .tree-table-view .column-header {
-    -fx-border-width: 0 1 0 1;
+    -fx-border-width: 0 1 0 0;
     -fx-border-color: black;
     -fx-border-style: TRANSPARENT;
-    -fx-border-width: 0;
+
 }
 
 .tree-table-cell {

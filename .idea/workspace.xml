@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3ca8af3-4410-48f8-9abe-ee435ca15b70" name="Changes" comment="added lesson svgload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,8 @@
       <workItem from="1660566634901" duration="1423000" />
       <workItem from="1660568090246" duration="1714000" />
       <workItem from="1660578211289" duration="2428000" />
-      <workItem from="1660582431157" duration="1012000" />
+      <workItem from="1660582431157" duration="1184000" />
+      <workItem from="1660583782689" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1659949779320</created>
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660580635910</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added lesson svgload">
+      <created>1660583609496</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660583609496</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
