@@ -126,15 +126,22 @@
     -fx-background-radius: 30;
     -fx-tree-table-color: blue;
     -fx-tree-table-rippler-color: red
-    -fx-effect: dropshadow(three-pass-box, black, 10,0,0,0);
+
 }
 /*https://github.com/sshahine/JFoenix/blob/6729cc344533cb51c5acdd2bd87e827cbc2868e9/demo/src/main/resources/css/jfoenix-main-demo.css*/
 .tree-table-view .column-header {
     -fx-border-width: 0 1 0 1;
-    -fx-border-color: white;
+    -fx-border-color: black;
     -fx-border-style: TRANSPARENT;
     -fx-border-width: 0;
 }
+
+.tree-table-cell {
+    -fx-border-color: blue, red;
+    -fx-border-width: 0 0 1 0, 0 5 0 0;
+}
+
+
 /*.tree-table-view .column-header > StackPane{
     -fx-border-style: none;
     -fx-background-color: transparent;
@@ -144,10 +151,13 @@
     -fx-min-height: 45.0px;
     -fx-cursor: hand;
 }*/
-/*.tree-table-view .column {
-    -fx-background-color: transparent;
-    -fx-border-style: none;
+-table-view .column {
+    -fx-border-width: 0 1 0 1;
+    -fx-border-color: black;
+    -fx-border-style: TRANSPARENT;
+    -fx-border-width: 1;
 }
+/*
 .tree-table-cell {
     -fx-border-style: none;
     -fx-background-color: transparent;
