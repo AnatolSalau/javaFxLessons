@@ -7,7 +7,6 @@
     <list default="true" id="b3ca8af3-4410-48f8-9abe-ee435ca15b70" name="Changes" comment="added lesson svgload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/salov/jfoenixstart/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/jfoenixstart.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,6 +162,7 @@
       <workItem from="1660547424770" duration="7000" />
       <workItem from="1660566634901" duration="1423000" />
       <workItem from="1660568090246" duration="1714000" />
+      <workItem from="1660578211289" duration="2249000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1659949779320</created>
