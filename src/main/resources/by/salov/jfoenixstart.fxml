@@ -9,7 +9,7 @@
 
 <AnchorPane prefHeight="600" prefWidth="1000" stylesheets="@svgload.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.salov.jfoenixstart.Controller">
    <children>
-      <JFXTreeTableView fx:id="tableview" layoutX="231.0" layoutY="182.0" prefHeight="237.0" prefWidth="539.0" style="-fx-background-radius: 15;" />
+      <JFXTreeTableView fx:id="tableview" layoutX="231.0" layoutY="182.0" prefHeight="237.0" prefWidth="539.0" />
       <JFXButton fx:id="buttonOne" buttonType="RAISED" layoutX="501.0" layoutY="85.0" prefHeight="41.0" prefWidth="408.0" ripplerFill="BLACK" style="-fx-background-radius: 10; -fx-background-color: #00A99D;" styleClass="add-pacient" text="               Добавить пациента" textFill="WHITE" wrapText="true">
          <font>
             <Font name="Arial Bold Italic" size="18.0" />

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@svgload.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.salov.svgload.Controller">
+   <children>
+      <JFXButton fx:id="myButton1" ellipsisString="" layoutX="33.0" layoutY="106.0" prefHeight="99.0" prefWidth="172.0" styleClass="my-button-1" />
+      <Label fx:id="myLabel1" layoutX="250.0" layoutY="110.0" styleClass="my-label-1" text="Label" />
+      <JFXButton fx:id="myButton11" layoutX="133.0" layoutY="127.0" prefHeight="99.0" prefWidth="172.0" styleClass="my-button-2" />
+   </children>
+</AnchorPane>

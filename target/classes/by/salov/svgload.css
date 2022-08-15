@@ -1,0 +1,174 @@
+* {
+    -fx-base: white;
+}
+.my-button-1 {
+    -fx-min-width: 5;
+    -fx-min-height: 5;
+    -fx-pref-width: 25;
+    -fx-pref-height: 35;
+    -fx-background-color: white;
+    -fx-font-size: 16pt;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, black, 10,0,0,0);
+    -fx-background-insets: 6px 0 6px 0; /* use proper area for shape */
+    -fx-shape: "M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z";
+}
+.my-button-2 {
+    -fx-min-width: 5;
+    -fx-min-height: 5;
+    -fx-pref-width: 20;
+    -fx-pref-height: 30;
+    -fx-background-color: white;
+    -fx-font-size: 16pt;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, black, 10,0,0,0);
+    -fx-background-insets: 6px 0 6px 0; /* use proper area for shape */
+    -fx-shape: "M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z";
+}
+.my-button-3 {
+    -fx-min-width: 5;
+    -fx-min-height: 5;
+    -fx-pref-width: 30;
+    -fx-pref-height: 30;
+    -fx-background-color: white;
+    -fx-font-size: 16pt;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, black, 10,0,0,0);
+    -fx-background-insets: 6px 0 6px 0; /* use proper area for shape */
+    -fx-shape: "M5120.31 6363.69c0,0 -26.46,0 -26.46,-26.46 0,-26.46 26.46,-105.83 158.75,-105.83 132.28,0 158.74,79.38 158.74,105.83 0,26.45 -26.46,26.46 -26.46,26.46l-264.57 0zm132.29 -158.74c43.83,0 79.37,-35.55 79.37,-79.38 0,-43.83 -35.54,-79.38 -79.36,-79.38 -43.83,0 -79.38,35.55 -79.38,79.38 0,43.83 35.55,79.38 79.38,79.38l-0.01 0zm198.43 -79.38c7.31,0 13.23,5.92 13.23,13.23l0 39.69 39.69 0c7.31,0 13.23,5.92 13.23,13.23 0,7.31 -5.92,13.23 -13.23,13.23l-39.69 0 0 39.68c0,7.3 -5.92,13.22 -13.23,13.22 -7.31,0 -13.23,-5.92 -13.23,-13.23l0 -39.67 -39.69 0c-7.31,0 -13.23,-5.92 -13.23,-13.23 0,-7.31 5.92,-13.23 13.23,-13.23l39.69 0 0 -39.69c0,-7.31 5.92,-13.23 13.23,-13.23z";
+}
+.add-pacient {
+    -fx-alignment: center-left;
+    /*-fx-text-alignment: center;*/
+}
+.label2 {
+    -fx-min-width: 5;
+    -fx-min-height: 5;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+    -fx-background-color: black;
+    -fx-font-size: 16pt;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, black, 10,0,0,0);
+    /*: 6px 0 6px 0; /* use proper area for shape */
+    -fx-shape:
+            "M100.72,29.79a16,16,0,0,0-11.86-5.1h0a21.62,21.62,0,0,0-17.69-10H40.29l-.46-3.21,0-.28C38.06,4,33.6,2.94,31.1,2.94H18.7a7.1,7.1,0,0,0-5.63,2.5C12,6.76,10.85,9.19,11.62,13.1L12,15.3a15.59,15.59,0,0,0-7.72,4.85A16,16,0,0,0,.73,33.26l6.9,44.95A21.2,21.2,0,0,0,16.3,91.89a16,16,0,0,0,10.75,4H83.91a18.55,18.55,0,0,0,18.18-16.85L104.9,42A15.93,15.93,0,0,0,100.72,29.79Zm-83-20.57a1.28,1.28,0,0,1,1-.31H31.1c.59,0,2,0,2.85,3.53l.32,2.22H17.92L17.49,12C17.19,10.5,17.39,9.58,17.68,9.22ZM6.62,32.36A10.18,10.18,0,0,1,8.8,24a10.14,10.14,0,0,1,7.89-3.42H71.12a15,15,0,0,1,10,4.07H32A18.54,18.54,0,0,0,13.83,41.54L11.91,66.77ZM99,41.54,96.14,78.6A12.64,12.64,0,0,1,83.91,89.94H28.27a14.58,14.58,0,0,1-8.22-2.71c-.16-.16-.33-.31-.48-.47A10,10,0,0,1,17,79.06L19.77,42A12.64,12.64,0,0,1,32,30.66H88.86A9.95,9.95,0,0,1,99,41.54Z"
+}
+.label3 {
+    -fx-min-width: 5;
+    -fx-min-height: 5;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+    -fx-background-color: white;
+    -fx-font-size: 16pt;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, black, 10,0,0,0);
+     /* use proper area for shape */
+    -fx-shape:
+"M98.71,88.59c-1.49-18-13.9-31.68-31.69-36.36a26.75,26.75,0,1,0-28,0C21.25,56.91,8.84,70.56,7.34,88.59a6.25,6.25,0,0,0,6.22,6.76H92.49a6.24,6.24,0,0,0,6.22-6.76ZM32,29.45a21,21,0,1,1,21,21A21,21,0,0,1,32,29.45Zm60.86,60a.49.49,0,0,1-.38.17H13.56a.48.48,0,0,1-.37-.17.5.5,0,0,1-.14-.39c1.64-19.66,17.7-32.87,40-32.87S91.37,69.4,93,89.06A.47.47,0,0,1,92.87,89.45Z"
+}
+.addPersonWhite {
+    -fx-min-width: 5;
+    -fx-min-height: 5;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+    -fx-background-color: black;
+    -fx-shape:
+"M40.88,30.24a11.38,11.38,0,1,0-12.58,0,20.07,20.07,0,0,0-3.07,1.16A11.71,11.71,0,0,1,27,33.59a19.67,19.67,0,0,1,7.59-1.44c9.22,0,15.86,5.46,16.53,13.6h0l-23.58,0a12.26,12.26,0,0,1-2,2.79H51.1a2.82,2.82,0,0,0,2.06-.9,2.79,2.79,0,0,0,.73-2.13C53.27,38,48.19,32.32,40.88,30.24Zm-6.29-.86a8.61,8.61,0,1,1,8.6-8.61A8.61,8.61,0,0,1,34.59,29.38ZM25.81,41.44H18v7.78a1.39,1.39,0,0,1-2.78,0V41.44H7.49a1.39,1.39,0,0,1,0-2.78h7.77V30.89a1.39,1.39,0,1,1,2.78,0v7.77h7.77a1.39,1.39,0,1,1,0,2.78Z"
+}
+.patientFindings {
+    -fx-min-width: 5;
+    -fx-min-height: 5;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+    -fx-background-color: black;
+    -fx-shape:
+"M100.72,29.79a16,16,0,0,0-11.86-5.1h0a21.62,21.62,0,0,0-17.69-10H40.29l-.46-3.21,0-.28C38.06,4,33.6,2.94,31.1,2.94H18.7a7.1,7.1,0,0,0-5.63,2.5C12,6.76,10.85,9.19,11.62,13.1L12,15.3a15.59,15.59,0,0,0-7.72,4.85A16,16,0,0,0,.73,33.26l6.9,44.95A21.2,21.2,0,0,0,16.3,91.89a16,16,0,0,0,10.75,4H83.91a18.55,18.55,0,0,0,18.18-16.85L104.9,42A15.93,15.93,0,0,0,100.72,29.79Zm-83-20.57a1.28,1.28,0,0,1,1-.31H31.1c.59,0,2,0,2.85,3.53l.32,2.22H17.92L17.49,12C17.19,10.5,17.39,9.58,17.68,9.22ZM6.62,32.36A10.18,10.18,0,0,1,8.8,24a10.14,10.14,0,0,1,7.89-3.42H71.12a15,15,0,0,1,10,4.07H32A18.54,18.54,0,0,0,13.83,41.54L11.91,66.77ZM99,41.54,96.14,78.6A12.64,12.64,0,0,1,83.91,89.94H28.27a14.58,14.58,0,0,1-8.22-2.71c-.16-.16-.33-.31-.48-.47A10,10,0,0,1,17,79.06L19.77,42A12.64,12.64,0,0,1,32,30.66H88.86A9.95,9.95,0,0,1,99,41.54Z"
+}
+.personalData {
+    -fx-min-width: 5;
+    -fx-min-height: 5;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+    -fx-background-color: black;
+    -fx-shape:
+"M98.71,88.59c-1.49-18-13.9-31.68-31.69-36.36a26.75,26.75,0,1,0-28,0C21.25,56.91,8.84,70.56,7.34,88.59a6.25,6.25,0,0,0,6.22,6.76H92.49a6.24,6.24,0,0,0,6.22-6.76ZM32,29.45a21,21,0,1,1,21,21A21,21,0,0,1,32,29.45Zm60.86,60a.49.49,0,0,1-.38.17H13.56a.48.48,0,0,1-.37-.17.5.5,0,0,1-.14-.39c1.64-19.66,17.7-32.87,40-32.87S91.37,69.4,93,89.06A.47.47,0,0,1,92.87,89.45Z"
+}
+.print {
+    -fx-min-width: 5;
+    -fx-min-height: 5;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+    -fx-background-color: black;
+    -fx-shape:
+"M93.55,27.69H11.45A10.86,10.86,0,0,0,.6,38.54v27.6A10.86,10.86,0,0,0,11.45,77h8.79V94.43a3,3,0,0,0,3,3H81a3,3,0,0,0,3-3V77h9.59A10.86,10.86,0,0,0,104.4,66.14V38.54A10.86,10.86,0,0,0,93.55,27.69ZM78,91.43H26.24V63H78ZM98.4,66.14A4.85,4.85,0,0,1,93.55,71H84V60a3,3,0,0,0-3-3H23.24a3,3,0,0,0-3,3V71H11.45A4.85,4.85,0,0,1,6.6,66.14V38.54a4.85,4.85,0,0,1,4.85-4.85h82.1a4.85,4.85,0,0,1,4.85,4.85ZM22.17,24.86a3,3,0,0,0,3-3V6.57H65.4v7.86a2,2,0,0,0,2,2H78.76v5.43a3,3,0,0,0,6,0V12.79a3,3,0,0,0-1.07-2.3l-11-9.22a3,3,0,0,0-1.93-.7H22.17a3,3,0,0,0-3,3V21.86A3,3,0,0,0,22.17,24.86ZM76.68,12.43H69.4V6.57h.31Z"
+}
+.statistics {
+    -fx-min-width: 5;
+    -fx-min-height: 5;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+    -fx-background-color: black;
+    -fx-shape:
+"M96.66,87.14H11.34v-5.4L36.21,60.51l6.38,6.16a3,3,0,0,0,2.15.84,3,3,0,0,0,2.1-.92l15-15.66L78.69,66.34a3,3,0,0,0,2,.79l.43,0a3,3,0,0,0,2.14-1.42l3.3-5.5h7.07a3,3,0,0,0,0-6H84.89a3,3,0,0,0-2.57,1.45L80,59.44,66,46.59,83.81,28.06h9.85a3,3,0,0,0,0-6H82.53a3,3,0,0,0-2.17.92L61.6,42.54l-15.27-14a3,3,0,0,0-3.92-.13L11.34,53.49V7.86a3,3,0,1,0-6,0V90.14a3,3,0,0,0,3,3H96.66a3,3,0,0,0,0-6ZM44.17,34.7,57.45,46.87,44.59,60.26l-6.18-6a3,3,0,0,0-4-.12l-23,19.67V61.2Z"
+}
+
+/*tree-table-view .column-header > StackPane{
+    -fx-alignment: center-right;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+}*/
+.tree-table-view {
+    -fx-background-radius: 50;
+    -fx-background-color: transparent;
+}
+/*.tree-table-view .column-header > StackPane{
+    -fx-border-style: none;
+    -fx-background-color: transparent;
+    -fx-background-radius: 15;
+    !*-fx-background-color: #27A5F9;*!
+    -fx-size: 45.0px;
+    -fx-min-height: 45.0px;
+    -fx-cursor: hand;
+}*/
+/*.tree-table-view .column {
+    -fx-background-color: transparent;
+    -fx-border-style: none;
+}
+.tree-table-cell {
+    -fx-border-style: none;
+    -fx-background-color: transparent;
+}
+.tree-table-view .column-header-background .label{
+    -fx-border-style: none;
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-text-weight:strong;
+    -fx-border-width:2;
+    -fx-border-radius:20;
+    -fx-padding:7;
+    -fx-font-size:18;
+}*/
+.tree-table-view {
+    -fx-background-color: transparent;
+}
+.tree-table-view.column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.tree-table-view.corner {
+    -fx-background-color: transparent;
+}
+.tree-table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+    -fx-background-radius: 30px 30px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+.tree-table-view .column-header > StackPane {
+    -fx-background-color: transparent;
+}
+.tree-table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
