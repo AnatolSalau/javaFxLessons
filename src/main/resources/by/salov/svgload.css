@@ -114,28 +114,44 @@
 }
 
 .tree-table-view {
-    -fx-border-width: 0 0 0 0;
+    -fx-border-width: 0;
     -fx-background-radius: 30;
     -fx-selection-bar: green;
     -fx-selection-bar-non-focused: orange;
 }
+.tree-table-view, .table-view{
+    -fx-background-color: TRANSPARENT;
+    -fx-border-width: 0;
+}
 /*https://github.com/sshahine/JFoenix/blob/6729cc344533cb51c5acdd2bd87e827cbc2868e9/demo/src/main/resources/css/jfoenix-main-demo.css*/
 .tree-table-view .column-header {
     -fx-border-width: 0 1 0 0;
-    -fx-border-color: black;
+    -fx-border-color: linear-gradient(to top, lightgray ,  TRANSPARENT 25% );
     -fx-border-style: TRANSPARENT;
 }
-.tree-table-view, .table-view{
-    -fx-background-color: white;
-    -fx-border-color: lightgray;
-    -fx-border-width: 0;
-}
+
 .tree-table-view .column-header-background{
     -fx-background-color: linear-gradient(to bottom, #1dbbdd44, #93f9b944);
     -fx-background-radius: 30px 30px 0px 0px;
-
-
 }
+.tree-table-view .tree-table-cell {
+    -fx-background-color: orange;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-color: lightgray;
+/*    -fx-padding: 16 0 16 0;*/
+    -fx-alignment: top-center;
+}
+/*.tree-table-view .column-overlay {
+    -fx-background-color: purple;
+}
+
+.tree-table-view .column-resize-line, .tree-table-view .column-drag-header {
+    -fx-background-color: purple;
+}*/
+/*.tree-table-view .column-header .label {
+    -fx-text-fill: #949494;
+    -fx-padding: 50 50 50 50;
+}*/
 
 
 
