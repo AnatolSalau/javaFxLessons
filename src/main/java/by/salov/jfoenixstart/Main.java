@@ -6,10 +6,13 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.ScrollBar;
+import javafx.scene.control.skin.ScrollBarSkin;
 import javafx.stage.Stage;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 public class Main extends Application {
     @Override
@@ -18,8 +21,10 @@ public class Main extends Application {
         primaryStage.setTitle("JFoenix start");
         primaryStage.setScene(new Scene(root,500,300));
         primaryStage.show();
+        //----------------------------
         List<Node> allNodesInParent = getAllNodesInParent(root);
         System.out.println(allNodesInParent);
+        //---------------------------------
         JFXTreeTableView jfxTreeTableView = (JFXTreeTableView) allNodesInParent.get(0);
         List<Node> allNodesInTreeTableView = getAllNodesInParent(jfxTreeTableView);
         for (int i = 0; i < allNodesInTreeTableView.size(); i++) {
@@ -27,7 +32,8 @@ public class Main extends Application {
             System.out.println(allNodesInTreeTableView.get(i));
             System.out.println();
         }
-
+        //-----------------------------------
+        Node node = allNodesInTreeTableView.get(220);
     }
 
     public static void main(String[] args) {
@@ -44,4 +50,5 @@ public class Main extends Application {
         }
         return ret;
     }
+
 }
