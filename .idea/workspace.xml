@@ -122,6 +122,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="javaFxLessons.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/javaFxLessons.jar" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -134,10 +138,12 @@
     <list>
       <item itemvalue="Application.CreateJar" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.javaFxLessons.jar" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.javaFxLessons.jar" />
       </list>
     </recent_temporary>
   </component>
