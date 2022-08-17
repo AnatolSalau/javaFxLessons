@@ -4,18 +4,25 @@ import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTreeTableView;
 import com.jfoenix.controls.RecursiveTreeItem;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.control.Label;
+import javafx.scene.control.ScrollBar;
 import javafx.scene.control.TreeItem;
 import javafx.scene.control.TreeTableColumn;
 import javafx.scene.control.cell.TreeItemPropertyValueFactory;
 import javafx.scene.layout.Region;
 
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
@@ -116,4 +123,15 @@ public class Controller implements Initializable {
         tableview.setShowRoot(false);
 
     }
+    public static List<Node> getAllNodesInParent(Parent parent) {
+        List<Node> ret = new ArrayList<>();
+        for (Node child : parent.getChildrenUnmodifiable()) {
+            ret.add(child);
+            if (child instanceof Parent) {
+                ret.addAll(getAllNodesInParent((Parent) child));
+            }
+        }
+        return ret;
+    }
+
 }
