@@ -1,5 +1,5 @@
 * {
-    -fx-base: lightgray;
+    -fx-base: white;
 }
 .my-button-1 {
     -fx-min-width: 5;
@@ -212,7 +212,7 @@
     -fx-shape:
   "M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z";
 }*/
-.scroll-bar:vertical  .thumb {
+/*.scroll-bar:vertical  .thumb {
     -fx-background-color: red;
 }
 .scroll-bar:vertical  .thumb:pressed {
@@ -230,4 +230,4 @@
     -fx-background-position: 10;
     -fx-background-color: #BCBCBC;
     -fx-background-size: 10 10;
-}
+}*/
