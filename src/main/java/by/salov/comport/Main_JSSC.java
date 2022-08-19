@@ -4,13 +4,10 @@ package by.salov.comport;
 
 import com.fazecast.jSerialComm.SerialPort;
 import jssc.SerialPortException;
-import jssc.SerialPortTimeoutException;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.util.Arrays;
 
-public class Main {
+public class Main_JSSC {
     public static void main(String[] args) throws IOException {
         ComPortJComService comPortJComService = new ComPortJComService();
         SerialPort[] serialPorts = comPortJComService.getSerialPorts();
@@ -36,20 +33,37 @@ public class Main {
 
            System.out.println("read 10 bytes ");
             byte[] bytes = com4.readBytes(10);
-            System.out.println(bytes);
             for (int i = 0; i < bytes.length; i++) {
                 System.out.println(bytes[i]);
             }
-            System.out.println("Write {'C', 'L', 'B', 'Ž', 'E'}");
-            char[] chars = {'C', 'L', 'B', 'Ž', 'E'};
-            for (int i = 0; i < chars.length; i++) {
-                System.out.println((byte)chars[i]);
-                com4.writeByte((byte)chars[i]);
-            }
-            System.out.println("Read 50 bytes");
-            byte[] bytes2 = com4.readBytes(50);
+
+            System.out.println("Write {67, 76, 66, 142, 69 }");
+
+            int[] ints = {67, 76, 66, 142, 69 };
+
+
+            com4.writeIntArray(ints);
+
+            //-------------------------------------------------
+            System.out.println("Read 10 bytes");
+            byte[] bytes2 = com4.readBytes(10);
             for (int i = 0; i < bytes2.length; i++) {
-                System.out.println(bytes2[i]);
+                System.out.println(Byte.toUnsignedInt(bytes2[i]));
+            }
+            //-------------------------------------------------
+            System.out.println("Write {67, 76, 66, 142, 69 }");
+            System.out.println("Like hex {43, 4C, 42, 8E, 45 }");
+            String[] arrString = {"43","4C","42","8E","45"};
+            int[] arrIntFromHex = new int[arrString.length];
+            for (int i = 0; i < arrString.length; i++) {
+                arrIntFromHex[i] = Integer.parseInt(arrString[i],16);
+            }
+            com4.writeIntArray(arrIntFromHex);
+            //-------------------------------------------------
+            System.out.println("Read 10 bytes");
+            byte[] bytes3 = com4.readBytes(10);
+            for (int i = 0; i < bytes2.length; i++) {
+                System.out.println(Byte.toUnsignedInt(bytes2[i]));
             }
             com4.closePort();
         } catch (SerialPortException e) {

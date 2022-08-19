@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3ca8af3-4410-48f8-9abe-ee435ca15b70" name="Changes" comment="CSS TreeTableView">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fazecast_jSerialComm_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_java_native_jssc_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scijava_native_lib_loader_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/comport/ComPortJComService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/comport/ComPortJSSCService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/comport/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/comport/Main_JCom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaFxLessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaFxLessons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/by/salov/svgload.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/salov/svgload.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/salov/svgload.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javaFxLessons.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/javaFxLessons.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/salov/comport/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/salov/comport/Main_JSSC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +93,7 @@
       <recent name="by.salov" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main_JSSC">
     <configuration name="CreateJar" type="Application" factoryName="Application" folderName="CreateJAR">
       <option name="MAIN_CLASS_NAME" value="by.salov.jfoenixstart.Main" />
       <module name="javaFxLessons" />
@@ -176,6 +164,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main_JCom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.salov.comport.Main_JCom" />
+      <module name="javaFxLessons" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.salov.comport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_JSSC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.salov.comport.Main_JSSC" />
+      <module name="javaFxLessons" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.salov.comport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -205,13 +221,15 @@
     <list>
       <item itemvalue="Application.CreateJar" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JAR Application.javaFxLessons.jar" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="JAR Application.javaFxLessons.jar" />
+      <item itemvalue="Application.Main_JSSC" />
+      <item itemvalue="Application.Main_JCom" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main_JSSC" />
+        <item itemvalue="Application.Main_JCom" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="JAR Application.javaFxLessons.jar" />
@@ -246,7 +264,8 @@
       <workItem from="1660583782689" duration="15000" />
       <workItem from="1660631489597" duration="5605000" />
       <workItem from="1660736079475" duration="5254000" />
-      <workItem from="1660803804909" duration="20544000" />
+      <workItem from="1660803804909" duration="20699000" />
+      <workItem from="1660889350039" duration="7811000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1659949779320</created>
@@ -381,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660742722192</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="CSS TreeTableView">
+      <created>1660829136808</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660829136808</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
