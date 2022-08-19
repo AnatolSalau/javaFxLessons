@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3ca8af3-4410-48f8-9abe-ee435ca15b70" name="Changes" comment="CSS TreeTableView">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/comport/Main_JCom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/listview/ListViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/salov/listview/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/by/salov/listview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/by/salov/listview.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/salov/comport/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/salov/comport/Main_JSSC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="CSS File" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -93,7 +94,7 @@
       <recent name="by.salov" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main_JSSC">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="CreateJar" type="Application" factoryName="Application" folderName="CreateJAR">
       <option name="MAIN_CLASS_NAME" value="by.salov.jfoenixstart.Main" />
       <module name="javaFxLessons" />
@@ -109,6 +110,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="by.salov.comport_jssc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.salov.listview.Main" />
+      <module name="javaFxLessons" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.salov.listview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,10 +220,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaFxLessons.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/javaFxLessons.jar" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -222,17 +233,17 @@
       <item itemvalue="Application.CreateJar" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="JAR Application.javaFxLessons.jar" />
       <item itemvalue="Application.Main_JSSC" />
       <item itemvalue="Application.Main_JCom" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main_JSSC" />
         <item itemvalue="Application.Main_JCom" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JAR Application.javaFxLessons.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +276,8 @@
       <workItem from="1660631489597" duration="5605000" />
       <workItem from="1660736079475" duration="5254000" />
       <workItem from="1660803804909" duration="20699000" />
-      <workItem from="1660889350039" duration="7811000" />
+      <workItem from="1660889350039" duration="7835000" />
+      <workItem from="1660903952238" duration="5860000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1659949779320</created>
@@ -407,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660829136808</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="CSS TreeTableView">
+      <created>1660900645965</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1660900645965</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

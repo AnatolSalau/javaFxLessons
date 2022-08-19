@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="500.0" stylesheets="@listview.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.salov.listview.ListViewController">
+   <children>
+      <JFXListView fx:id="listview" layoutX="50.0" layoutY="100.0" />
+      <JFXButton fx:id="topbutton" layoutX="124.0" layoutY="52.0" onAction="#load" />
+      <JFXButton fx:id="botbutton" layoutX="124.0" layoutY="527.0" onAction="#unload" />
+      <JFXButton fx:id="addbutton" layoutX="349.0" layoutY="230.0" onAction="#addnew" />
+   </children>
+</AnchorPane>

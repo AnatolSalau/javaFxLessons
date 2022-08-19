@@ -1,0 +1,30 @@
+
+. button {
+    -fx-background-color: green;
+}
+
+.jfx-list-view .jfx-list-cell:selected {
+    -fx-background-color: blue;
+}
+
+.jfx-list-view .jfx-list-cell {
+    -fx-background-color: gray;
+}
+.jfx-list-view .jfx-list-cell:hover {
+    -fx-background-color: black;
+}
+
+.jfx-list-cell .jfx-rippler {
+    -jfx-rippler-fill: red;
+}
+
+/*.jfx-list-view {
+    -fx-background-insets: 0;
+    -fx-cell-vertical-margin:10.0;
+    -fx-vertical-gap: 10.0;
+    -fx-pref-width: 200;
+}*/
+
+.jfx-popup-container {
+    -fx-background-color: white;
+}
