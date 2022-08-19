@@ -3,12 +3,16 @@ package by.salov.listview;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXListView;
 import com.jfoenix.controls.JFXPopup;
+import com.jfoenix.controls.JFXScrollPane;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.geometry.Insets;
 import javafx.scene.Parent;
 import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.layout.VBox;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -25,12 +29,22 @@ public class ListViewController implements Initializable {
     JFXButton botbutton;
     @FXML
     JFXButton addbutton;
+    @FXML
+    ScrollPane scrollpane;
 
     @FXML
     private JFXPopup popup;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        VBox root = new VBox();
+        root.getChildren().addAll(new JFXButton("button1"), new JFXButton("button2"), new JFXButton("button2"), new JFXButton("button2"), new JFXButton("button2"), new JFXButton("button2"), new JFXButton("button2"), new JFXButton("button2"), new JFXButton("button2"), new JFXButton("button2"), new JFXButton("button3"));
+        root.setSpacing(10);
+        root.setPadding(new Insets(10));
+        scrollpane.setContent(root);
+
+
+
         listview.setPrefWidth(250);
         listview.setPrefHeight(350);
         topbutton.setText("Load");
@@ -50,6 +64,7 @@ public class ListViewController implements Initializable {
 
     @FXML
     private void load(ActionEvent event) {
+        scrollpane.setVvalue(0.1);
         if(!listview.isExpanded()) {
             listview.setExpanded(true);
             listview.setVerticalGap(10.0);
@@ -74,6 +89,6 @@ public class ListViewController implements Initializable {
 
     @FXML
     private void unload(ActionEvent event) {
-
+        scrollpane.setVvalue(-0.1);
     }
 }
