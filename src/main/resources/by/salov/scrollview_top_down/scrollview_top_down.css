@@ -1,0 +1,57 @@
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+    -fx-min-width: 0;
+    -fx-pref-width-width: 0;
+}
+
+
+.scroll-bar:horizontal .increment-button ,
+.scroll-bar:horizontal .decrement-button {
+    -fx-min-width: 1;
+    -fx-pref-width-width: 1;
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+
+}
+
+.scroll-bar:vertical .increment-button ,
+.scroll-bar:vertical .decrement-button {
+    -fx-min-width: 1;
+    -fx-pref-width-width: 1;
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow{
+    -fx-min-width: 1;
+    -fx-pref-width-width: 1;
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+}
+
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow{
+    -fx-min-width: 1;
+    -fx-pref-width-width: 1;
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-min-width: 1;
+    -fx-pref-width-width: 1;
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+}
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-min-width: 1;
+    -fx-pref-width-width: 1;
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+}
